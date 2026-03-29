@@ -4,7 +4,7 @@
 
 ## 📂 Projekt-Stufen / Project Versions
 
-Ich habe zwei Versionen des Scrapers entwickelt, um verschiedene Anforderungen abzudecken:
+Ich habe drei Versionen des Scrapers entwickelt, um verschiedene Anforderungen abzudecken:
 
 ### 1️⃣ Basis-Scraper (`basic_scraper_20_books.py`)
 * **Ziel:** Schnelle Extraktion einer einzelnen Seite.
