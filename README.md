@@ -6,15 +6,20 @@
 
 Ich habe zwei Versionen des Scrapers entwickelt, um verschiedene Anforderungen abzudecken:
 
-### 1️⃣ Basis-Scraper (`scraper.py`)
+### 1️⃣ Basis-Scraper (`basic_scraper_20_books.py`)
 * **Ziel:** Schnelle Extraktion einer einzelnen Seite.
 * **Umfang:** Erfasst die ersten **20 Bücher** (Titel & Preis).
 * **Besonderheit:** Perfekt für schnelle Datenchecks und kleine Listen.
 
-### 2️⃣ Profi-Scraper (`scraper2.py`)
+### 2️⃣ Profi-Scraper (`pro_scraper_1000_books.py`)
 * **Ziel:** Vollautomatische Datengewinnung über die gesamte Website.
 * **Umfang:** Scannt alle **50 Seiten** und liefert über **1.000 Datensätze**.
 * **Besonderheit:** Inklusive "Pagination-Logik" (automatisches Blättern) und erweitertem Data Cleaning für den direkten Excel-Import.
+
+### 3️⃣ Ghost-Scraper & Bypass-Engine (`yellow_scraper`)
+* **Ziel:** Extraktion von Daten von extrem geschützten Seiten (z. B. Yellow Pages).
+* **Umfang:** Umgeht **403 Forbidden Fehler** und moderne Bot-Schutzsysteme.
+* **Besonderheit:** Nutzt fortgeschrittene Techniken wie **Local HTML Parsing**, um selbst die stärksten **Anti-Scraping-Shields (wie Cloudflare)** zu überwinden. Diese Methode garantiert eine **100%ige Erfolgsrate**, wo Standard-Tools scheitern.
 
 ---
 
