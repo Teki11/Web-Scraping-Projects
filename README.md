@@ -1,5 +1,23 @@
 # 🚀 Professional Web Scraper / Professioneller Web-Scraper (Python)
 
+---
+
+## 📂 Projekt-Stufen / Project Versions
+
+Ich habe zwei Versionen des Scrapers entwickelt, um verschiedene Anforderungen abzudecken:
+
+### 1️⃣ Basis-Scraper (`scraper.py`)
+* **Ziel:** Schnelle Extraktion einer einzelnen Seite.
+* **Umfang:** Erfasst die ersten **20 Bücher** (Titel & Preis).
+* **Besonderheit:** Perfekt für schnelle Datenchecks und kleine Listen.
+
+### 2️⃣ Profi-Scraper (`scraper2.py`)
+* **Ziel:** Vollautomatische Datengewinnung über die gesamte Website.
+* **Umfang:** Scannt alle **50 Seiten** und liefert über **1.000 Datensätze**.
+* **Besonderheit:** Inklusive "Pagination-Logik" (automatisches Blättern) und erweitertem Data Cleaning für den direkten Excel-Import.
+
+---
+
 [English below]
 
 ## 🇩🇪 Deutsch: Projektübersicht
